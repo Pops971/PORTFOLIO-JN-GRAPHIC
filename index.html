@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JN GRAPHIC | Affiches Sportives</title>
+    <!-- Liens CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Open+Sans:wght@400;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-circle">
+                    <img src="image/Copie de Graphic.svg" alt="JN GRAPHIC">
+                </div>
+                <div class="logo-text">
+                    <span>JN GRAPHIC</span>
+                </div>
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#affiches-sportives">Affiches Sportives</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">⚡ DESIGN SPORTIF ⚡</div>
+                <h1>L'ÉNERGIE DU <span class="highlight">SPORT</span> EN <span class="highlight">AFFICHES</span></h1>
+                <h2>Créations visuelles dynamiques pour événements sportifs</h2>
+                <p>Des affiches qui capturent l'intensité, la passion et la puissance du sport.</p>
+                <div class="hero-buttons">
+                    <a href="#affiches-sportives" class="btn btn-sport">VOIR LES AFFICHES <i class="fas fa-arrow-right"></i></a>
+                
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="sport-showcase">
+                    <div class="dynamic-bg"></div>
+                    <div class="sport-card sport-card-1">
+                        <div class="sport-overlay">
+                            <img src="image/JUPH.png" alt="Football">
+                        </div>
+                    </div>
+                    <div class="sport-card sport-card-2">
+                        <div class="sport-overlay">
+                            <img src="image/dembele.png" alt="Football">
+                        </div>
+                    </div>
+                    <div class="sport-card sport-card-3">
+                        <div class="sport-overlay">
+                            <img src="image/final post.jpg" alt="Football">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">L'<span class="highlight">INSTANT</span> <span class="highlight">GRAPHIC</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Designer graphique spécialisé dans l'univers sportif</h3>
+                    <p>Je capture l'essence du mouvement, la force des émotions et l'intensité des compétitions à travers des affiches qui marquent les esprits.</p>
+                    <p>Chaque création raconte une histoire : celle d'un athlète, d'une équipe, d'un moment décisif. Mon approche allie typographie percutante, compositions dynamiques et couleurs vibrantes.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Affiches sportives</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Événements</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Sports différents</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="sport-quote">
+                        <i class="fas fa-quote-right"></i>
+                        <p>Le design sportif, c'est figer l'émotion en plein mouvement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Affiches Sportives -->
+    <section id="affiches-sportives" class="sport-posters">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">AFFICHES <span class="highlight">SPORTIVES</span></h2>
+                <p class="section-subtitle">Une sélection de mes créations les plus percutantes</p>
+            </div>
+            
+            <!-- Filtres -->
+            <div class="sport-filters">
+                <button class="filter-btn active" data-filter="all">TOUS</button>
+                <button class="filter-btn" data-filter="football">FOOTBALL</button>
+                <button class="filter-btn" data-filter="running">RUNNING</button>
+                <button class="filter-btn" data-filter="automobile">AUTOMOBILE</button>
+            </div>
+            
+            <!-- Grille d'affiches -->
+            <div class="posters-grid">
+                
+                <!-- Affiche 1 - Football VISUEL -->
+                <div class="poster-item" data-category="football">
+                    <div class="poster-card">
+                        <img src="image/dembele.png" alt="Affiche Football" class="poster-img">
+                        <div class="poster-badge">FOOTBALL</div>
+                        <div class="poster-content">
+                            <h3>VISUEL</h3>
+                            <div class="poster-details">
+                                <span><i class="fas fa-calendar"></i> 01.06.26</span>
+                                <span><i class="fas fa-map-pin"></i> GUADELOUPE</span>
+                            </div>
+                        </div>
+                        <div class="poster-overlay">
+                            <a href="voir l'affiche.html" class="view-btn">VOIR L'AFFICHE <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Affiche 2 - GIF (EN COURS) -->
+                <div class="poster-item" data-category="football">
+                    <div class="poster-card">
+                        <img src="image/VAyR.gif" alt="Animation en cours" class="poster-img gif-style">
+                        <div class="poster-badge">DIVERS</div>
+                        <div class="poster-content">
+                            <h3>EN COURS</h3>
+                            <div class="poster-details">
+                                <span><i class="fas fa-calendar"></i> En cours</span>
+                                <span><i class="fas fa-map-pin"></i> GUADELOUPE</span>
+                            </div>
+                        </div>
+                        <div class="poster-overlay">
+                            <button class="view-btn disabled" disabled>PROJET EN COURS <i class="fas fa-clock"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Affiche 3 - Running -->
+<div class="poster-item" data-category="running">
+    <div class="poster-card">
+        <img src="image/VAyR.gif" alt="Affiche Marathon" class="poster-img">
+        <div class="poster-badge">RUNNING</div>
+        <div class="poster-content">
+            <h3>MARATHON</h3>
+            <div class="poster-distance"></div>
+            <div class="poster-location"></div>
+        </div>
+        <div class="poster-overlay">
+            <a href="voir-affiche.html?id=3" class="view-btn disabled"disabled>BIENTÔT DISPONIBLE <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+                <!-- Affiche 4- Automobile -->
+                <div class="poster-item" data-category="automobile">
+                    <div class="poster-card">
+                        <img src="image/VAyR.gif" alt="Futur Projet" class="poster-img">
+                        <div class="poster-badge">AUTOMOBILE</div>
+                        <div class="poster-content">
+                            <h4></h4>
+                            <div class="poster-year"></div>
+                        </div>
+                        <div class="poster-overlay">
+                            <button class="view-btn disabled" disabled>BIENTÔT DISPONIBLE</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bouton voir plus -->
+            <div class="text-center">
+                <button class="btn-load-more" id="loadMoreBtn">
+                    CHARGER PLUS D'AFFICHES <i class="fas fa-redo-alt"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Processus créatif -->
+    <section id="process" class="creative-process">
+        <div class="container">
+            <h2 class="section-title">MON <span class="highlight">PROCESSUS</span> CRÉATIF</h2>
+            <div class="process-grid">
+                <div class="process-item">
+                    <div class="process-number">01</div>
+                    <h3>CONCEPT</h3>
+                    <p>Analyse du sport, de l'événement et des émotions à transmettre</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">02</div>
+                    <h3>DYNAMISME</h3>
+                    <p>Création de compositions qui capturent le mouvement</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">03</div>
+                    <h3>TYPOGRAPHIE</h3>
+                    <p>Choix de polices percutantes et lisibles</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">04</div>
+                    <h3>COULEURS</h3>
+                    <p>Sélection de palettes vibrantes et énergiques</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">MES <span class="highlight">OUTILS</span></h2>
+            <div class="skills-showcase">
+                <div class="skill-tool">
+                    <i class="fas fa-pen-fancy"></i>
+                    <span>AFFINITY</span>
+                </div>
+                <div class="skill-tool">
+                    <i class="fas fa-magic"></i>
+                    <span>PHOTOSHOP</span>
+                </div>
+                <div class="skill-tool">
+                    <i class="fas fa-vector-square"></i>
+                    <span>ILLUSTRATOR</span>
+                </div>
+                <div class="skill-tool">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>CANVA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-sport">
+        <div class="container">
+            <div class="contact-content">
+                <h2>VOUS AVEZ UN <span class="highlight">ÉVÉNEMENT SPORTIF</span> À PROMOUVOIR ?</h2>
+                <p>Créons ensemble une affiche qui marquera les esprits</p>
+                <a href="contact.html" class="btn-sport-large">ME CONTACTER <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="logo">JN <span>GRAPHIC</span></a>
+                <p>Affiches sportives & design graphique</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/jn_graphic8" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@jvph009" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.youtube.com/@not_jvph" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="copyright">© 2024 JN GRAPHIC. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
